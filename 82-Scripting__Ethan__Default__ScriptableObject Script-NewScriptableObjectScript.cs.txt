@@ -1,0 +1,29 @@
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "Scriptable Objects/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
+{
+    #region Variables
+
+    #endregion
+
+    #region Unity Methods
+
+    public void Start()
+    {
+        #NOTRIM#
+    }
+
+    public void Update()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+    #region Methods
+
+    #endregion
+}
+#ROOTNAMESPACEEND#

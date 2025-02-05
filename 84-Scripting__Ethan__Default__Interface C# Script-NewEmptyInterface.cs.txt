@@ -1,0 +1,24 @@
+/*******************************************************************
+* Copyright         : 2025 Ethan
+* File Name         : #SCRIPTNAME#
+* Description       : this is EmptyInterface template i created.
+*                     If you want to improve it. Just go to
+*                     https://github.com/ethanN2/Unity_Script_Template
+/******************************************************************/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public interface #SCRIPTNAME#
+{
+    #region Properties
+
+    #endregion
+
+    #region Methods
+
+    #endregion
+}
+#ROOTNAMESPACEEND#

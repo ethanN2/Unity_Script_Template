@@ -1,0 +1,77 @@
+/*******************************************************************
+* Copyright         : 2025 Ethan
+* File Name         : #SCRIPTNAME#
+* Description       : this is MonoBehaviour template i created.
+*                     If you want to improve it. Just go to
+*                     https://github.com/ethanN2/Unity_Script_Template
+/******************************************************************/
+
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    #region Enums
+    #endregion
+
+    #region Fields
+    #endregion
+
+    #region Properties
+    #endregion
+
+    #region Unity Methods
+
+    // Awake is called once before the first execution of Update after the MonoBehaviour is created
+    private void Awake()
+    {
+        #NOTRIM#
+    }
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Start()
+    {
+        #NOTRIM#
+    }
+
+    // These functions will be called when the attached GameObject is enabled.
+    private void OnEnable()
+    {
+        #NOTRIM#
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        #NOTRIM#
+    }
+
+    // These functions will be called when the attached GameObject is toggled.
+    private void OnDisable()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+    #region Gizmos
+
+    private void OnDrawGizmos()
+    {
+
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+
+    }
+
+    #endregion
+
+    #region Public Methods
+    #endregion
+
+    #region Private Methods
+    #endregion
+}
+#ROOTNAMESPACEEND#
