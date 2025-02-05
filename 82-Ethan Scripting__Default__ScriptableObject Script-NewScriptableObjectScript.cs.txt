@@ -1,0 +1,39 @@
+/*******************************************************************
+* Copyright         : 2025 Ethan
+* File Name         : #SCRIPTNAME#
+* Description       : this is ScriptableObject template i created.
+*                     If you want to improve it. Just go to
+*                     https://github.com/ethanN2/Unity_Script_Template
+/******************************************************************/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "Scriptable Objects/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
+{
+    #region Variables
+
+    #endregion
+
+    #region Unity Methods
+
+    public void Start()
+    {
+        #NOTRIM#
+    }
+
+    public void Update()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+    #region Methods
+
+    #endregion
+}
+#ROOTNAMESPACEEND#

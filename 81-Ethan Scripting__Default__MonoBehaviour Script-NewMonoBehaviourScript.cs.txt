@@ -6,9 +6,12 @@
 *                     https://github.com/ethanN2/Unity_Script_Template
 /******************************************************************/
 
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
     #ROOTNAMESPACEBEGIN#
+[AddComponentMenu("Default/#SCRIPTNAME#")]
 public class #SCRIPTNAME# : MonoBehaviour
 {
     #region Enums
@@ -18,6 +21,9 @@ public class #SCRIPTNAME# : MonoBehaviour
     #endregion
 
     #region Properties
+    #endregion
+
+    #region Events / Delegates
     #endregion
 
     #region Unity Methods
